@@ -10,6 +10,12 @@ This project focuses on promoting recycling awareness and sustainability. The we
 
 ## Features
 
+- **Trash Detection:** Uses TensorFlow.js and the COCO-SSD model to identify recyclable materials.
+- **Latest News Section:** Displays curated articles related to sustainability and recycling.
+- **User-Friendly Interface:** Built with React for a seamless user experience.
+- **Camera Integration:** Employs React Webcam for real-time object detection.
+- **Authentication:** Secure user management with React Token Auth.
+  
 ### Homepage
 - Animated Earth as the centerpiece.
 - Navigation bar with links to various sections (e.g., Home, News, Detect Trash, Product Page).
@@ -28,10 +34,22 @@ This project focuses on promoting recycling awareness and sustainability. The we
 - **Detect Trash:** A feature to detect trash types and recommend recycling or disposal methods.
 - **Product Page:** A catalog of eco-friendly products or services that support recycling goals.
 
-## Tech Stack
-- **Frontend:** React.js for creating a dynamic user interface.
-- **Backend:** Node.js for handling server-side operations (if applicable).
-- **Styling:** CSS/SCSS for custom designs and responsiveness.
+## Tools and Technologies
+
+### Frontend
+- **React**: Core library for building the user interface.
+- **React Router DOM**: Navigation and routing for single-page applications.
+- **React Spinners**: Provides visually appealing loading indicators.
+- **React Webcam**: Captures real-time video for trash detection.
+
+### Backend
+- **Flask**: Lightweight Python web framework for API and backend services.
+- **Proxy**: Configured at `http://127.0.0.1:5000` to connect React with Flask.
+
+### Machine Learning
+- **@tensorflow/tfjs**: TensorFlow.js library for running ML models in the browser.
+- **@tensorflow-models/coco-ssd**: Pre-trained COCO-SSD model for object detection.
+
 
 ## Installation and Setup
 1. Clone this repository.
