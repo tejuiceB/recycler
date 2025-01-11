@@ -51,36 +51,14 @@ This project focuses on promoting recycling awareness and sustainability. The we
    npm start
    ```
 5. Open `http://localhost:3000` in your browser to view the application.
-
-## Folder Structure
-```
-recycling-awareness/
-|-- public/
-|   |-- index.html
-|   |-- assets/
-|-- src/
-|   |-- components/
-|   |   |-- Navbar.js
-|   |   |-- ProcessCards.js
-|   |   |-- News.js
-|   |-- pages/
-|   |   |-- HomePage.js
-|   |   |-- ProductPage.js
-|   |-- App.js
-|   |-- index.js
-|-- package.json
-```
-
+   
 ## Screenshots
 
 ### Homepage
-![Homepage with Earth Animation](./screenshots/homepage.png)
+![Homepage with Earth Animation](/homepage.png)
 
 ### Our Process Section
-![Our Process: Reduce, Reuse, Recycle](./screenshots/our_process.png)
-
-### News Section
-![News Section](./screenshots/news_section.png)
+![Our Process: Reduce, Reuse, Recycle](/ourprocess.png)
 
 ## Contributing
 Contributions are welcome! To contribute:
@@ -98,9 +76,3 @@ Contributions are welcome! To contribute:
    git push origin feature-name
    ```
 5. Create a pull request.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-For any issues or suggestions, please contact [Your Email/Contact Info].
